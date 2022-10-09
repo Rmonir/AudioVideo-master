@@ -1,0 +1,174 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.audiovideoexample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:5:3-75
+11-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:5:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:3:3-64
+12-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:3:20-62
+13    <uses-permission android:name="android.permission.VIBRATE" /> <!-- These require runtime permissions on M -->
+13-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:6:3-63
+13-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:6:20-61
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:8:3-77
+14-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:8:20-75
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:9:3-78
+15-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:9:20-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[com.facebook.flipper:flipper:0.54.0] C:\Users\Mr.Refat\.gradle\caches\transforms-3\7ced98fae9ea2b5aa64e54aefef0d400\transformed\jetified-flipper-0.54.0\AndroidManifest.xml:16:5-76
+16-->[com.facebook.flipper:flipper:0.54.0] C:\Users\Mr.Refat\.gradle\caches\transforms-3\7ced98fae9ea2b5aa64e54aefef0d400\transformed\jetified-flipper-0.54.0\AndroidManifest.xml:16:22-73
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[:expo-updates] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+17-->[:expo-updates] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[:react-native-track-player] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\react-native-track-player\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-68
+18-->[:react-native-track-player] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\react-native-track-player\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-65
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->[:react-native-track-player] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\react-native-track-player\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-77
+19-->[:react-native-track-player] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\react-native-track-player\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-74
+20
+21    <queries>
+21-->[:expo-file-system] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-22:15
+22
+23        <!-- Query open documents -->
+24        <intent>
+24-->[:expo-file-system] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-21:18
+25            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+25-->[:expo-file-system] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-79
+25-->[:expo-file-system] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:21-76
+26        </intent>
+27    </queries>
+28
+29    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+29-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Mr.Refat\.gradle\caches\transforms-3\2eaa8b7fe35f2883f1a81120e2c348c2\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+29-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Mr.Refat\.gradle\caches\transforms-3\2eaa8b7fe35f2883f1a81120e2c348c2\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+30
+31    <application
+31-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:11:3-36:17
+32        android:name="com.audiovideoexample.MainApplication"
+32-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:12:5-36
+33        android:allowBackup="false"
+33-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:16:5-32
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.3.0] C:\Users\Mr.Refat\.gradle\caches\transforms-3\fe3cf0882eb40046447bd9893532f7c5\transformed\core-1.3.0\AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:14:5-39
+37        android:label="@string/app_name"
+37-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:13:5-37
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:15:5-50
+39        android:theme="@style/AppTheme"
+39-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:17:5-36
+40        android:usesCleartextTraffic="true" >
+40-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:18:5-40
+41        <meta-data
+41-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:20:5-103
+42            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+42-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:20:16-67
+43            android:value="YOUR-APP-URL-HERE" />
+43-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:20:68-101
+44        <meta-data
+44-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:21:5-112
+45            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+45-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:21:16-68
+46            android:value="YOUR-APP-SDK-VERSION-HERE" />
+46-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:21:69-110
+47
+48        <activity
+48-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:22:5-34:16
+49            android:name="com.audiovideoexample.MainActivity"
+49-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:23:7-35
+50            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+50-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:25:7-84
+51            android:label="@string/app_name"
+51-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:24:7-39
+52            android:launchMode="singleTask"
+52-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:26:7-38
+53            android:theme="@style/Theme.App.SplashScreen"
+53-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:28:7-52
+54            android:windowSoftInputMode="adjustResize" >
+54-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:27:7-49
+55            <intent-filter>
+55-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:30:7-33:23
+56                <action android:name="android.intent.action.MAIN" />
+56-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:31:9-60
+56-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:31:17-58
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:32:9-68
+58-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:32:19-66
+59            </intent-filter>
+60        </activity>
+61        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+61-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:35:5-81
+61-->E:\Refat\Work\React-examples\AudioVideo-master\android\app\src\main\AndroidManifest.xml:35:15-79
+62
+63        <meta-data
+63-->[:unimodules-react-native-adapter] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:91
+64            android:name="org.unimodules.core.AppLoader#react-native-headless"
+64-->[:unimodules-react-native-adapter] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-79
+65            android:value="org.unimodules.adapters.react.apploader.RNHeadlessAppLoader" /> <!-- The main service, handles playback, playlists and media buttons -->
+65-->[:unimodules-react-native-adapter] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
+66        <service
+66-->[:react-native-track-player] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\react-native-track-player\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-24:19
+67            android:name="com.guichaguri.trackplayer.service.MusicService"
+67-->[:react-native-track-player] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\react-native-track-player\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-75
+68            android:enabled="true"
+68-->[:react-native-track-player] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\react-native-track-player\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-35
+69            android:exported="true" >
+69-->[:react-native-track-player] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\react-native-track-player\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-36
+70            <intent-filter>
+70-->[:react-native-track-player] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\react-native-track-player\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-23:29
+71                <action android:name="android.intent.action.MEDIA_BUTTON" />
+71-->[:react-native-track-player] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\react-native-track-player\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-77
+71-->[:react-native-track-player] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\react-native-track-player\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-74
+72            </intent-filter>
+73        </service> <!-- A receiver that will receive media buttons. Required on pre-lollipop devices -->
+74        <receiver android:name="androidx.media.session.MediaButtonReceiver" >
+74-->[:react-native-track-player] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\react-native-track-player\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-31:20
+74-->[:react-native-track-player] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\react-native-track-player\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:19-76
+75            <intent-filter>
+75-->[:react-native-track-player] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\react-native-track-player\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-23:29
+76                <action android:name="android.intent.action.MEDIA_BUTTON" />
+76-->[:react-native-track-player] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\react-native-track-player\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-77
+76-->[:react-native-track-player] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\react-native-track-player\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-74
+77            </intent-filter>
+78        </receiver>
+79
+80        <provider
+80-->[:expo-file-system] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-34:20
+81            android:name="expo.modules.filesystem.FileSystemFileProvider"
+81-->[:expo-file-system] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-74
+82            android:authorities="com.audiovideoexample.FileSystemFileProvider"
+82-->[:expo-file-system] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-74
+83            android:exported="false"
+83-->[:expo-file-system] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-37
+84            android:grantUriPermissions="true" >
+84-->[:expo-file-system] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-47
+85            <meta-data
+85-->[:expo-file-system] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-33:70
+86                android:name="android.support.FILE_PROVIDER_PATHS"
+86-->[:expo-file-system] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-67
+87                android:resource="@xml/file_system_provider_paths" />
+87-->[:expo-file-system] E:\Refat\Work\React-examples\AudioVideo-master\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:17-67
+88        </provider>
+89
+90        <service
+90-->[androidx.room:room-runtime:2.1.0] C:\Users\Mr.Refat\.gradle\caches\transforms-3\3b5db4b3b22ae452a34a6490900f58b2\transformed\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+91            android:name="androidx.room.MultiInstanceInvalidationService"
+91-->[androidx.room:room-runtime:2.1.0] C:\Users\Mr.Refat\.gradle\caches\transforms-3\3b5db4b3b22ae452a34a6490900f58b2\transformed\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+92            android:exported="false" />
+92-->[androidx.room:room-runtime:2.1.0] C:\Users\Mr.Refat\.gradle\caches\transforms-3\3b5db4b3b22ae452a34a6490900f58b2\transformed\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+93    </application>
+94
+95</manifest>

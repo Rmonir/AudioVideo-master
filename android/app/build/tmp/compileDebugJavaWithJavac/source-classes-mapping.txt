@@ -1,0 +1,17 @@
+com/audiovideoexample/ReactNativeFlipper.java
+ com.audiovideoexample.ReactNativeFlipper
+ com.audiovideoexample.ReactNativeFlipper$1
+ com.audiovideoexample.ReactNativeFlipper$2
+ com.audiovideoexample.ReactNativeFlipper$2$1
+com/audiovideoexample/MainActivity.java
+ com.audiovideoexample.MainActivity
+ com.audiovideoexample.MainActivity$1
+com/audiovideoexample/generated/BasePackageList.java
+ com.audiovideoexample.generated.BasePackageList
+com/audiovideoexample/BuildConfig.java
+ com.audiovideoexample.BuildConfig
+com/audiovideoexample/MainApplication.java
+ com.audiovideoexample.MainApplication
+ com.audiovideoexample.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
